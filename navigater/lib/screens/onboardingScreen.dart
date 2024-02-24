@@ -49,7 +49,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                     height: 20,
                   ),
                   Text(
-                    "images/${onBoardingData[index].description}",
+                    "${onBoardingData[index].description}",
                     textAlign: TextAlign.center,
                     style: const TextStyle(
                         fontSize: 14,

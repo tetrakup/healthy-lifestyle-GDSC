@@ -127,13 +127,13 @@ class _ProfileScreenState extends State<ProfileScreen> {
 
   instagram() {
     final Uri uri =
-        Uri.parse("https://instagram.com/s.cylnty"); 
+        Uri.parse("https://www.instagram.com/googlefordevs/"); 
     launchUrl(uri);
   }
 
   linkedin() {
     final Uri uri =
-        Uri.parse("https://linkedin.com/in/ceylanatay"); 
+        Uri.parse("https://www.linkedin.com/company/gdsc-iet-lucknow/"); 
     launchUrl(uri);
   }
 
@@ -148,12 +148,12 @@ class _ProfileScreenState extends State<ProfileScreen> {
   }
 
   mail() {
-    final Uri uri = Uri.parse("mailto:fakemail@gmail.com?subject=Support Request&body=Hello, I have a problem with the application.");//yazıyı adrese çevir
+    final Uri uri = Uri.parse("mailto:username@gmail.com?subject=Support Request&body=Hello, I have a problem with the application.");//yazıyı adrese çevir
     launchUrl(uri);
   }
 
   whatsapp() {
-    final Uri uri = Uri.parse("https://wa.me/+905554443322?text=metin");
+    final Uri uri = Uri.parse("https://wa.me/+905554443322?text=Hello World");
     launchUrl(uri);
   }
 

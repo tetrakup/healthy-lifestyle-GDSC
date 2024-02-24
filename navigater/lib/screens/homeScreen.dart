@@ -5,7 +5,6 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:navigater/core/storage.dart';
-import '../screens/Category.dart';
 import 'booksScreen.dart';
 
 int _selectedIndex = 1;
@@ -132,7 +131,7 @@ class _HomeScreenState extends State<HomeScreen> {
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
   static final List<Widget> _widgetOptions = <Widget>[
     BooksScreen(),
-    const Kategoriler(),
+    const HomeScreen(),
   ];
 
   @override

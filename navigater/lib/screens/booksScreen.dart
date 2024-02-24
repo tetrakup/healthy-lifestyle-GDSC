@@ -22,10 +22,10 @@ class BooksScreen extends StatefulWidget {
 
 class _BooksScreenState extends State<BooksScreen> {
   Map<String, dynamic> user = {
-    "name": "",
-    "id": -1,
-    "phone_number": "",
-    "email": "",
+    "name": "GDSC",
+    "id": 1,
+    "phone_number": "+90 (534) 000 0000",
+    "email": "user.name@gmail.com",
   };
   //logout error
   logOut() {
@@ -125,28 +125,6 @@ class _BooksScreenState extends State<BooksScreen> {
     }
   }
 
-  /*final List<Map<String, String>> books = [
-    {
-      "photo": "assets/images/kitap1.jpg",
-      "bookName": "Yaratmayan İns..",
-      "writer": "Erich Fromm",
-    },
-    {
-      "photo": "assets/images/kitap2.jpg",
-      "bookName": "İnsanca, Pek İns",
-      "writer": "Irvin D. Yalom",
-    },
-    {
-      "photo": "assets/images/kitap3.jpg",
-      "bookName": "Nietzsche Ağlad",
-      "writer": "Yazar İsmi",
-    },
-    {
-      "photo": "assets/images/kitap4.jpg",
-      "bookName": "İnsan Ne ile Yaş",
-      "writer": "Lev Tolstoy",
-    },
-  ];*/
   final List<Map<String, String>> books = [
     {
       "photo": "assets/images/kitap1.jpg",
@@ -380,28 +358,6 @@ class _BooksScreenState extends State<BooksScreen> {
                   Gap(5),
                   ElevatedButton(
                     onPressed: () {
-                      Navigator.pushNamed(context, '/kategoriler');
-                    },
-                    child: Row(
-                      children: [
-                        SvgPicture.asset(
-                          "assets/icons/categories.svg",
-                          height: 20,
-                          colorFilter: ColorFilter.mode(
-                            Colors.white60,
-                            BlendMode.srcIn,
-                          ),
-                        ),
-                        SizedBox(
-                          width: 10,
-                        ),
-                        Text("Categories"),
-                      ],
-                    ),
-                  ),
-                  Gap(5),
-                  ElevatedButton(
-                    onPressed: () {
                       //Navigator.pushNamed(context, '/writ3rs');
                       Navigator.pushNamed(context, '/writers');
                     },
@@ -518,13 +474,13 @@ class _BooksScreenState extends State<BooksScreen> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    CategoryItem("Science Fiction"),
-                    CategoryItem("Mystery"),
-                    CategoryItem("Horror"),
-                    CategoryItem("Poetry"),
-                    CategoryItem("Classics"),
-                    CategoryItem("Novel"),
-                    CategoryItem("Non-fiction"),
+                    CategoryItem("Exercise"),
+                    CategoryItem("Diet and Nutrition"),
+                    CategoryItem("Mental Health"),
+                    CategoryItem("Physical Health"),
+                    CategoryItem("Healthy Recipes"),
+                    CategoryItem("Stress Management"),
+                    CategoryItem("Natural Remedies"),
                   ],
                 ),
               ),

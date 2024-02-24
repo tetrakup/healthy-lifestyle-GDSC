@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:navigater/screens/Category.dart';
 import 'package:navigater/screens/loadingScreen.dart';
 import 'package:navigater/screens/onboardingScreen.dart';
 
@@ -38,7 +37,6 @@ class MyApp extends StatelessWidget {
               user: const {},
             ),
         '/anaekran': (context) => BooksScreen(),
-        "/kategoriler": (context) => const Kategoriler(),
         "/device": (context) => const DeviceScreen(),
         "/users": (context) => const UsersScreen(),
         "/devices": (context) => const DeviceScreen(),
