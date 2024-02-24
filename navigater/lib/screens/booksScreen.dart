@@ -125,7 +125,7 @@ class _BooksScreenState extends State<BooksScreen> {
     }
   }
 
-  final List<Map<String, String>> books = [
+  /*final List<Map<String, String>> books = [
     {
       "photo": "assets/images/kitap1.jpg",
       "bookName": "Yaratmayan İns..",
@@ -146,30 +146,54 @@ class _BooksScreenState extends State<BooksScreen> {
       "bookName": "İnsan Ne ile Yaş",
       "writer": "Lev Tolstoy",
     },
-  ];
+  ];*/
+  final List<Map<String, String>> books = [
+  {
+    "photo": "assets/images/kitap1.jpg",
+    "bookName": "The 7 Keys to..",
+    "writer": "Mehmet Oz",
+  },
+  {
+    "photo": "assets/images/kitap2.jpg",
+    "bookName": "Healthy Aging          ",
+    "writer": "Andrew Weil",
+  },
+  {
+    "photo": "assets/images/kitap3.jpg",
+    "bookName": "The Spectrum         ",
+    "writer": "Dean Ornish",
+  },
+  {
+    "photo": "assets/images/kitap4.jpg",
+    "bookName": "In Defense of Food",
+    "writer": "Michael Pollan",
+  },
+];
 
-  final List<Map<String, String>> books2 = [
-    {
-      "photo": "assets/images/kitap5.jpg",
-      "bookName": "Tutunamayanlar",
-      "writer": "Oğuz Atay",
-    },
-    {
-      "photo": "assets/images/kitap6.jpg",
-      "bookName": "Aldatma Sanatı",
-      "writer": "Kevin D. Mitnick",
-    },
-    {
-      "photo": "assets/images/kitap7.jpg",
-      "bookName": "Huzursuzluğun K",
-      "writer": "Fernando Pessoa",
-    },
-    {
-      "photo": "assets/images/kitap8.jpg",
-      "bookName": "Beyaz Zambaklar",
-      "writer": "Grigoriy Petrov",
-    },
-  ];
+
+final List<Map<String, String>> books2 = [
+  {
+    "photo": "assets/images/kitap5.jpg",
+    "bookName": "The Blue Zones:",
+    "writer": "Dan Buettner",
+  },
+  {
+    "photo": "assets/images/kitap6.jpg",
+    "bookName": "How Not to Die",
+    "writer": "Michael Greger",
+  },
+  {
+    "photo": "assets/images/kitap7.jpg",
+    "bookName": "The Plant Par..",
+    "writer": "Steven R. Gundry",
+  },
+  {
+    "photo": "assets/images/kitap8.jpg",
+    "bookName": "Clean Gut",
+    "writer": "Alejandro Junger",
+  },
+];
+
 
   final List<Map<String, String>> books3 = [
     {
