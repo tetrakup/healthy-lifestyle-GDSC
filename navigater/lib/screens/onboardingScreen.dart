@@ -59,41 +59,6 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                   const SizedBox(
                     height: 30,
                   ),
-                  /*
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Container(
-                    width: 10,
-                    height: 10,
-                    decoration: BoxDecoration(
-                        color: index == 0 ? primaryColorED6E1B : Colors.grey,
-                        shape: BoxShape.circle),
-                  ),
-                  const SizedBox(
-                    width: 10,
-                  ),
-                  Container(
-                    width: 10,
-                    height: 10,
-                    decoration: BoxDecoration(
-                        color: index == 1 ? primaryColorED6E1B : Colors.grey,
-                        shape: BoxShape.circle),
-                  ),
-                  const SizedBox(
-                    width: 10,
-                  ),
-                  Container(
-                    width: 10,
-                    height: 10,
-                    decoration: BoxDecoration(
-                        color: index == 2 ? primaryColorED6E1B : Colors.grey,
-                        shape: BoxShape.circle),
-                  ),
-                ],
-              ),
-              */
-                  //
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
@@ -129,8 +94,6 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                       ),
                     ],
                   ),
-
-                  //
                   const SizedBox(
                     height: 30,
                   ),

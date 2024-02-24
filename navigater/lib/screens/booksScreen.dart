@@ -148,96 +148,94 @@ class _BooksScreenState extends State<BooksScreen> {
     },
   ];*/
   final List<Map<String, String>> books = [
-  {
-    "photo": "assets/images/kitap1.jpg",
-    "bookName": "The 7 Keys to..",
-    "writer": "Mehmet Oz",
-  },
-  {
-    "photo": "assets/images/kitap2.jpg",
-    "bookName": "Healthy Aging          ",
-    "writer": "Andrew Weil",
-  },
-  {
-    "photo": "assets/images/kitap3.jpg",
-    "bookName": "The Spectrum         ",
-    "writer": "Dean Ornish",
-  },
-  {
-    "photo": "assets/images/kitap4.jpg",
-    "bookName": "In Defense of Food",
-    "writer": "Michael Pollan",
-  },
-];
+    {
+      "photo": "assets/images/kitap1.jpg",
+      "bookName": "The 7 Keys to Health",
+      "writer": "Mehmet Oz",
+    },
+    {
+      "photo": "assets/images/kitap2.jpg",
+      "bookName": "Healthy Aging          ",
+      "writer": "Andrew Weil",
+    },
+    {
+      "photo": "assets/images/kitap3.jpg",
+      "bookName": "The Spectrum         ",
+      "writer": "Dean Ornish",
+    },
+    {
+      "photo": "assets/images/kitap4.jpg",
+      "bookName": "In Defense of Food",
+      "writer": "Michael Pollan",
+    },
+  ];
 
-
-final List<Map<String, String>> books2 = [
-  {
-    "photo": "assets/images/kitap5.jpg",
-    "bookName": "The Blue Zones:",
-    "writer": "Dan Buettner",
-  },
-  {
-    "photo": "assets/images/kitap6.jpg",
-    "bookName": "How Not to Die",
-    "writer": "Michael Greger",
-  },
-  {
-    "photo": "assets/images/kitap7.jpg",
-    "bookName": "The Plant Par..",
-    "writer": "Steven R. Gundry",
-  },
-  {
-    "photo": "assets/images/kitap8.jpg",
-    "bookName": "Clean Gut",
-    "writer": "Alejandro Junger",
-  },
-];
-
+  final List<Map<String, String>> books2 = [
+    {
+      "photo": "assets/images/kitap5.jpg",
+      "bookName": "The Blue Zones: ..",
+      "writer": "Dan Buettner",
+    },
+    {
+      "photo": "assets/images/kitap6.jpg",
+      "bookName": "How Not to Die      ",
+      "writer": "Michael Greger",
+    },
+    {
+      "photo": "assets/images/kitap7.jpg",
+      "bookName": "The Plant Paradox",
+      "writer": "Steven R. Gundry",
+    },
+    {
+      "photo": "assets/images/kitap8.jpg",
+      "bookName": "The China Study",
+      "writer": "T. Colin Campbell",
+    },
+  ];
 
   final List<Map<String, String>> books3 = [
     {
       "photo": "assets/images/kitap9.jpg",
-      "bookName": "Outliers  ",
-      "writer": "Malcolm Gladwell",
+      "bookName": "The Happiness Pr..",
+      "writer": "Gretchen Rubin",
     },
     {
       "photo": "assets/images/kitap10.jpg",
-      "bookName": "Fareler ve İnsan",
-      "writer": "John Steinbeck",
+      "bookName": "The Four Hour Body",
+      "writer": "Timothy Ferriss",
     },
     {
       "photo": "assets/images/kitap11.jpg",
-      "bookName": "Cesur Yeni Dünya",
-      "writer": "Aldous Huxley",
+      "bookName": "The Whole30      ",
+      "writer": "Melissa Hartwig",
     },
     {
       "photo": "assets/images/kitap12.jpg",
-      "bookName": "Bitmeyen Kavga",
-      "writer": "John Steinbeck",
+      "bookName": "Eat, Move, Sleep",
+      "writer": "Tom Rath",
     },
   ];
 
   final List<Map<String, String>> books4 = [
     {
       "photo": "assets/images/kitap13.jpg",
-      "bookName": "Harry Potter ",
-      "writer": "J.K. Rowling",
+      "bookName": "The Power of Now",
+      "writer": "Eckhart Tolle",
     },
     {
       "photo": "assets/images/kitap14.jpg",
-      "bookName": "To Kill a Mockingbird",
-      "writer": "Harper Lee",
+      "bookName": "Atomic Habits",
+      "writer": "James Clear",
     },
     {
       "photo": "assets/images/kitap15.jpg",
-      "bookName": "1984",
-      "writer": "George Orwell",
+      "bookName": "The Alchemist",
+      "writer": "Paulo Coelho",
     },
     {
       "photo": "assets/images/kitap16.jpg",
-      "bookName": "The Great Gatsby",
-      "writer": "F. Scott Fitzgerald",
+      "bookName": "The Champion's Mind",
+      "writer": "Jim Afremow",
     },
   ];
 
@@ -451,7 +449,7 @@ final List<Map<String, String>> books2 = [
                   const Divider(),
                   ElevatedButton(
                     onPressed: () async {
-                       logoutErrorMaterial();
+                      logoutErrorMaterial();
                       Storage storage = Storage();
                       await storage.clearUser();
                       //Navigator.of(context).pushReplacementNamed("/login");
