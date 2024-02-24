@@ -8,21 +8,21 @@ class OnBoardingEntity {
   static List<OnBoardingEntity> onBoardingData = [
     OnBoardingEntity(
       image: "books.jpg",
-      title: "Kitap Dünyasına Adım Atın",
+      title: "Sağlıklı Yaşam Yolculuğu",
       description:
-          "En popüler kitapları ve öne çıkan yazarları keşfedin! Sizi bekleyen macera dolu dünyayı keşfedin!",
+          "Sağlıklı bir yaşam tarzına adım atın ve en iyisini elde edin! Size sağlık, mutluluk ve huzur getirecek yolu keşfedin!",
     ),
     OnBoardingEntity(
       image: "books2.jpg",
-      title: "Yazarların İzinde",
+      title: "Egzersizde Yeni Başlangıçlar",
       description:
-          "Dünya genelindeki yazarların hayatları ve eserleriyle tanışın!",
+          "Sağlıklı bir yaşam için hareket edin! Egzersiz yapmanın önemini keşfedin ve vücudunuzu yeniden şekillendirin!",
     ),
     OnBoardingEntity(
       image: "books3.jpg",
-      title: "Kategorilere Yolculuk",
+      title: "Beslenme Rehberi",
       description:
-          "Farklı kategorilerdeki binlerce heyecan verisi kitabı keşfet!",
+          "Sağlıklı beslenmeyle vücudunuzu besleyin ve enerji dolu günler için hazırlanın! Lezzetli ve besleyici tariflerle tanışın!",
     ),
   ];
 }
